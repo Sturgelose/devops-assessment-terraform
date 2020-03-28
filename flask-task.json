@@ -1,0 +1,15 @@
+[
+  {
+      "memory": 512,
+      "memoryReservation": 256,
+      "image": "303981612052.dkr.ecr.eu-north-1.amazonaws.com/eriber-flask:latest",
+      "name": "flask-api",
+      "portMappings": [
+        {
+          "hostPort": 5000,
+          "protocol": "tcp",
+          "containerPort": 5000
+        }
+      ]
+    }
+]
